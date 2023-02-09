@@ -106,8 +106,6 @@ public class Account implements Cloneable { //clone() 메소드는 데이터 보
 	public Object clone() throws CloneNotSupportedException { //오버라이딩 할때 접근제어자는 같거나 더 넗은 범위에 제어자 쓸 수 있다, protected -> public로 해줘야 쓸 수 있음,상속,예외처리 개념 다 있는 예제
 		Account account = (Account)super.clone();
 		return account;
-		System.out.println("깃테스트");
-		System.out.println("ddddd");
 	}
 
 }
